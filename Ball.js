@@ -2,7 +2,7 @@
 	//获取BallGame对象,如果没有就创建一个空对象,有就直接获得
 	var ns = Q.use("BallGame");
 	var r = ns.r;  //14
-	
+	//做一个git的测试
 	var lines = ns.lines; //获得桌子的边
 	var Ball = ns.Ball = function(props){
 		this.num = 0;
